@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 60%;
+    height: 40%;
+}
+.fondo img{
+    position:absolute;
+    height: 48%;
+    width: 100%;
+    background-color: transparent;
+    align-content: center;
+}
+.contenedor{
+    width: 80%;
+    height:100%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left:10%;
+    margin-right: 10%;
+    position: absolute;
+}
+
+.acceso{
+    width:100% ;
+    height: 40%;
+    padding-top: 2%;
+    border-bottom: black 5px dashed; 
+    min-height: 160px;
+}
+.acceso .logo img:hover{
+    -webkit-transition: 1.5s;
+    -webkit-transform: rotate(360deg);
+    -moz-transition: 1.5s;
+    -moz-transform: rotate(360deg);
+}
+.acceso .logo{
+    width:  50%;
+    height: 36%;
+    position: absolute;
+}
+.acceso .datos{
+    width:50%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    float:right;
+    
+}
+.acceso .logo .centro h1{
+    text-align: center;
+    margin-top: -5%;
+}
+.acceso .logo .centro img {
+    width: 180px;
+    height: 60%;
+    margin-left: -40%;
+    margin-top: 10%;
+}
+
+.acceso .datos .datos1{
+    background: rgba(35, 126, 241, 0.63);
+    width: 65%;
+    max-width:  250px;
+    height: 95%;
+    float: right;
+    margin-right: 10%;
+    font-weight: 300;
+    border-radius: 15%;    
+}
+h1{
+    font-size: 130%;
+    color: black;
+    font-weight: 800;
+}
+label{
+    color: bisque;
+    font-size: 110%;
+    font-weight: 600;
+}
+.acceso .logo h1 {
+    color: #ae0000;
+    font-size: 110%;
+}
+.contenedor .noticias{
+    background:black;
+    border: #ff6700 8px outset;
+    height: 65%;
+    width: 100%;
+    
+}
+.contenedor .noticias h2{
+    border: white 8px outset;
+    background: #ff8603;
+    text-align: center;
+}
+.contenedor .noticias input{
+    margin: 2px;
+    float: right;
+    margin-right: 5%;
+    color: black;
+    border-collapse: collapse;
+}
+.contenedor .noticias input:hover{
+    float: right;
+    margin-right: 5%;
+    background: black;
+    color: azure;
+    filter: saturate(180%);
+    cursor: pointer;
+    font-weight: 700;
+}
+.video1{
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width:400px){
+    .contenedor{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:470px){
+    .contenedor{
+        width: 100%;
+        margin: auto;
+    }
+    .logo{
+        display: none;
+    }}
+@media screen and (max-height:650px){
+    .acceso{
+        height: 50%;
+    }
+    .fondo img{
+        height: 50%;
+        width: 100%;
+    }
+}@media screen and (max-height:550px){
+    .acceso{
+        height: 300px;
+    }
+    .fondo img{
+        height: 300px;
+        width: 100%;
+    }
+    .logo .centro{
+        height: 50px;
+        width: 50px;
+    }
+}
+.video1 video{
+    width: 95%;
+    height: 85%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+    
